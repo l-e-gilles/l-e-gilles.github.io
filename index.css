@@ -446,8 +446,8 @@ padding: 10px;
 
 /*print icon*/
 .printer {
-  height:25px;
-   width:25px;
+  height:2%;
+   width:2%;
   opacity: 0.3;
   float: right;
   z-index: 5; 
