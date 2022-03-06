@@ -124,7 +124,7 @@ html {
 
   /* project type stencils*/
   .phone-stencil {
-    background-image: url("../l-e-gilles.github.io/assets/stencils/phone-stencil.png");
+    background-image: url("https://l-e-gilles.github.io/assets/stencils/phone-stencil.png");
     width: 100%;
     height: 100%;
     background-size: contain;
@@ -134,7 +134,7 @@ html {
   }
 
   .web-stencil {
-    background-image: url("../l-e-gilles.github.io/assets/stencils/web-stencil.png");
+    background-image: url("https://l-e-gilles.github.io/assets/stencils/web-stencil.png");
     width: 100%;
     height: 100%;
     max-width: 100%;
