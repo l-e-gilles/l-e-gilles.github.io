@@ -21,9 +21,9 @@ function MovingNavBar() {
 
 
 /*animation tracker*/
-if (window.sessionStorage.getItem('animated') === null) {
-    document.getElementById('home-banner').classList.add('animate');
-    window.sessionStorage.setItem('animated', 1);
+if (window.sessionStorage.getItem('fade-home') === null) {
+    document.getElementById('home').classList.add('fade-home');
+    window.sessionStorage.setItem('fade-home', 1);
 }
   
 
