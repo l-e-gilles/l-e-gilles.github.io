@@ -776,7 +776,7 @@ padding: 10px;
 
 
 
-#home.fade-down {
+#portfolio.fade-down {
   animation-name: fadeDown;
   animation-duration: 1.5s;
   animation-fill-mode: forwards;
