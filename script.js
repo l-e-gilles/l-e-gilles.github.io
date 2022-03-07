@@ -25,7 +25,11 @@ if (window.sessionStorage.getItem('fade-home') === null) {
     document.getElementById('home').classList.add('fade-home');
     window.sessionStorage.setItem('fade-home', 1);
 }
-  
+ 
+ if (window.sessionStorage.getItem('fade-down') === null) {
+    document.getElementById('portfolio').classList.add('fade-down');
+    window.sessionStorage.setItem('fade-down', 1);
+}
 
 }
 
