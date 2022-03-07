@@ -1,77 +1,92 @@
 <!DOCTYPE html>
 <html>
-   <header>
-      <link rel="stylesheet" href="https://l-e-gilles.github.io/index.css">
-      <script src="https://l-e-gilles.github.io/script.js"></script>
-      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-   </header>
-    <body>
-      <div id="navbar" >
-         <a href="https://l-e-gilles.github.io/content/index.html">home</a>
-         <a href="https://l-e-gilles.github.io/content/portfolio.html">portfolio</a>
-         <a href="https://l-e-gilles.github.io/content/resume.html">resume</a> 
-    </div>
+<header>
+   <link rel="stylesheet" href="https://l-e-gilles.github.io/index.css">
+   <script src="https://l-e-gilles.github.io/script.js"></script>
+</header>
 
-        <h2>Portfolio</h2>
-        <table id="portfolio" class="center">
-            <tr>
-               <td>
-                  <div class="fade-down" style="animation-delay: .1s; opacity: 0;">
-                  <div class="project-tile" style="background: linear-gradient(180deg, #68B754 14.82%, #1093CC  99.99%, #0D95CC 100%);" onclick="location.href='./prenatalrater.html';" style="cursor: pointer;">
-                     <div>NHF Prenatal Rater<br>Android & iOS Mobile App<br>2020 </div>
-                     <div class="phone-stencil"></div>
-                  </div>
-               </div>
-               </td>
-               <td>
-                  <div class="fade-down" style="animation-delay: .4s; opacity: 0;">
-                  <div class="project-tile" style="  background: linear-gradient(180deg, #434343 0.83%, #0fcfe0 99.99%, rgba(26, 127, 136, 0) 100%);"  onclick="location.href='./smmeasuring.html';" style="cursor: pointer;">
-                     <div>IBM Social Media Measuring<br>Web Application<br>2021 </div>
-                     <div class="web-stencil"></div>
-                  </div>
-               </div>
-               </td>
-            </tr>  
-            <tr>
-               <td>
-                  <div class="fade-down" style="animation-delay: .7s; opacity: 0;">
-                  <div class="project-tile" style=" background: linear-gradient(360deg, #ff97c8 0%, #a074ff 51.01%, #3ab4ff 100%);" onclick="location.href='./website.html';" style="cursor: pointer;">
-                     <div>Portfolio Website<br>Github Pages Application<br>2022</div>
-                     <div class="web-stencil"></div>
-                  </div>
-                  </div>
-           
-               </td> 
-               <td>
-                  <div class="fade-down" style="animation-delay: 1s; opacity: 0;">
-                  <div class="project-tile" style="background: #DDDDDD;"></div>
-               </div>
-               </td> 
-            </tr>
-            <tr>
-                  <td>
-                     <div class="fade-down" style="animation-delay: 1.3s; opacity: 0;">
-                     <div class="project-tile-blank"></div>
-                  </div>
-               </div>
-                  </td> 
-                  <td>
-                     <div class="fade-down" style="animation-delay: 1.6s; opacity: 0;">
-                     <div class="project-tile-blank"></div>
-                  </div>
-                  </td>
-            </tr> 
-            <tr>
-               <td>&nbsp;</td>
-               <td>&nbsp;</td>
-            </tr>   
-      </table>
+<body>
+   <div id="navbar">
+      <a href="https://l-e-gilles.github.io/content/index.html">home</a>
+      <a href="https://l-e-gilles.github.io/content/portfolio.html">portfolio</a>
+      <a href="https://l-e-gilles.github.io/content/resume.html">resume</a>
+   </div>
 
+   <div  id="portfolio" class="container" style="width: 90%;height: 100%;">
+      <h2>Portfolio</h2>
+      <!--row 1-->
+      <div class="row">
+         <div class="column">
+            <div class="fade-down" style="animation-delay: .1s; opacity: 0;">
+               <div class="project-tile"
+                  style="background: linear-gradient(180deg, #68B754 14.85%, #1093CC  99.99%, #0D95CC 100%);"
+                  onclick="location.href='https://l-e-gilles.github.io/content/prenatalrater.html';" style="cursor: pointer;">
+                  <div class="project-title">NHF Prenatal Rater<br>Android & iOS Mobile App<br>2020 </div>
+                  <div class="phone-stencil"></div>
+               </div>
+            </div>
+         </div>
+         <div class="column">
+            <div class="fade-down" style="animation-delay: .4s; opacity: 0;">
+               <div class="project-tile"
+                  style="  background: linear-gradient(180deg, #434343 0.83%, #0fcfe0 99.99%, rgba(26, 127, 136, 0) 100%);"
+                  onclick="location.href='https://l-e-gilles.github.io/content/smmeasuring.html';" style="cursor: pointer;">
+                  <div class="project-title">IBM Social Media Measuring<br>Web Application<br>2021 </div>
+                  <div class="web-stencil"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--row 2-->
+      <div class="row">
+         <div class="column">
+            <div class="fade-down" style="animation-delay: .7s; opacity: 0;">
+               <div class="project-tile"
+                  style=" background: linear-gradient(360deg, #ff97c8 0%, #a074ff 51.01%, #3ab4ff 100%);"
+                  onclick="location.href='https://l-e-gilles.github.io/content/website.html';" style="cursor: pointer;">
+                  <div class="project-title">Portfolio Website<br>Github Pages Application<br>2022</div>
+                  <div class="web-stencil"></div>
+               </div>
+            </div>
+         </div>
+         <div class="column">
+            <div class="fade-down" style="animation-delay: 1s; opacity: 0;">
+               <div class="project-tile" style="background: #DDDDDD;"></div>
+            </div>
+         </div>
 
-       <!--fade in as user scrolls down page-->
-       <script>FadeOnScroll();</script>
-
-       
-    </body>
+      </div>
+      <!--row 3-->
+      <div class="row">
+         <div class="column">
+            <div class="fade-down" style="animation-delay: 1.3s; opacity: 0;">
+               <div class="project-tile-blank"></div>
+   
+         </div>
+         </div>
+         <div class="column">
+            <div class="fade-down" style="animation-delay: 1.6s; opacity: 0;">
+               <div class="project-tile-blank"></div>
     
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="column">
+            <div>&nbsp;</div>
+         </div>
+         <div class="column">
+            <div>&nbsp;</div>
+         </div>
+      </div>
+
+
+   </div>
+
+
+
+
+
+</body>
+
 </html>
