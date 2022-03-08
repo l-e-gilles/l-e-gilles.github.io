@@ -41,7 +41,7 @@ html {
  
   #navbar a {
     text-decoration: none;
-    color: #bdbdbd;
+    color: #a8a8a8;
     text-align: center;
     padding-right: 40px;
     font-size: 14px;
@@ -244,20 +244,22 @@ html {
 }
 
 
-  .block {
-    position: relative;
-    padding: 60px;
-    padding-bottom: 200px;
-    color: white;
-  }
+
 
   .block-header {
     font-size: 25px;
+    position: relative;
+    padding: 60px;
+    padding-bottom: 30px;
+    color: white;
   }
   
   .block-text {
   
-    font-size: 14px;
+    font-size: 16px;
+    position: relative;
+    padding-bottom: 60px;
+    color: white;
   }
 
 
@@ -484,7 +486,7 @@ padding: 10px;
 .column {
   float: left;
   width: 30%;
-
+ 
 }
 
 /* Clear floats after the columns */
@@ -560,7 +562,7 @@ padding: 10px;
 
 
 
-.fade-home {
+#home.fade-home {
   animation-name: fadeHome;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -724,193 +726,5 @@ padding: 10px;
 }
 
 
-
-
-
-
-
-
-
-.fade-in {
-  animation-name: fadeIn;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-   opacity: 1;
-  }
-}
-
-
-
-.fade-home {
-  animation-name: fadeHome;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-
-
-@keyframes fadeHome {
- 
-  0% {
-    opacity: 0;
-    transform: translateX(-30px);
-  }
-
-  100% {
-   opacity: 1;
-   transform: translateX(0);
-  }
-}
-
-
-
- 
-
-
-
-#portfolio.fade-down {
-  animation-name: fadeDown;
-  animation-duration: 1.5s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadeDown {
-  0% {
-    opacity: 0;
-    transform: translate3d(0,-5px,0);
-   
-  }
-  100% {
-    opacity: 1;
-    transform: translate3d(0,0,0);
-    
-  }
-}  
-
-
-
-.hideme
-{
-    opacity:0;
-}
-
-
-
-
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-  display: block;
-  text-align: center;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-.prev {
-  left: 0;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: 20px;
-  margin-top: -22px;
-  padding: 16px;
-  color: #717171;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-
-/* Caption text */
-.text {
-  color: #717171;
-  font-size: 15px;
-  padding: 8px 50px;
-  position: absolute;
-  top: 250px;
-  bottom: 90px;
-  width: 100%;
-  text-align: center;
-}
-
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-  display: block;
-  text-align: center;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-.prev {
-  left: 0;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: 20px;
-  margin-top: -22px;
-  padding: 16px;
-  color: #717171;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-
-/* Caption text */
-.text {
-  color: #717171;
-  font-size: 15px;
-  padding: 8px 50px;
-  position: absolute;
-  top: 250px;
-  bottom: 90px;
-  width: 100%;
-  text-align: center;
-}
 
 
