@@ -1,4 +1,5 @@
 
+
  /*All pages: top navigation bar moves with scrolling */ 
 window.onload = function() {
 window.onscroll = function() {MovingNavBar()};
@@ -20,16 +21,7 @@ function MovingNavBar() {
 }
 
 
-/*animation tracker*/
-if (window.sessionStorage.getItem('fade-home') === null) {
-    document.getElementById('home').classList.add('fade-home');
-    window.sessionStorage.setItem('fade-home', 1);
-}
- 
- if (window.sessionStorage.getItem('fade-down') === null) {
-    document.getElementById('portfolio').classList.add('fade-down');
-    window.sessionStorage.setItem('fade-down', 1);
-}
+  
 
 }
 
@@ -47,21 +39,21 @@ function loadText(index) {
     var projects = [
         {
             "title": "Neurological Health Foundation<br>Prenatal Rater",
-            "description": "The supplement industry is not regulated by the FDA, so their is no standard or regulation.",
+            "description": "The supplement industry is not regulated by the FDA, so their is no standard or quality regulation. The Neurological Health Foundation a not for profit organization conducted a study see how prenatal brands currently on the market compare to their recommended amounts.",
             "project": "Create a iOS and Android mobile app to summarize and report NHF's research findings",
             "team": "4 Classmates<br>Project Sponsor<br>Data Scientist",
-            "duration": "6 months<br>Aug 2020 - Dec 2020",
-            "tools": "Android Studio<br>XCode<br>Autodesk Sketchbook<br>Trello<br>Zoom",
-            "contributions": "Team Lead<br>Designed app theme<br>Created UX / UI mockups<br>Coded key functionality<br><br>Published iOS App<br>Published Andorid App",
-            "constraints": "Working remote<br>Limited team technical experiance<br>No design constraints",
+            "duration": "6 months<br>Aug 2020 - Dec 2020<br><br>Updates<br>Jan 2022 - ",
+            "tools": "Android Studio<br>Xcode<br>Autodesk Sketchbook<br>PowerPoint<br>Trello<br>Zoom",
+            "contributions": "Team Lead<br>Created UX / UI mockups<br>Designed app icon<br>Coded key functionality<br>Published iOS App<br>Published Android App",
+            "constraints": "Working remote due to pandemic<br>Limited team technical experiance<br>No design constraints",
             "goals": "1. Provide the overall rating (0-100%) for the 300+ prenatals, both alphabetical and sorted by rating score<br><br>2. Allow the ratings to be sorted by specific ingrediant amount<br><br>3. Give a detailed breakdown of supplement composition and how it compares to NHF's recommendation<br><br>4. Provide a summary of each vitamin and mineral and why its important<br><br>5. Comments for pre-existing complications<br><br>6. A link to NHF website for more information<br><br>7. A donantion link  to NHF's donation website page",
-            "research": "With plenty of data and information given and no design constraint, it was a little intimidating at first to think about how to design the app.I knew that it would be easier to utilize Android/iOS standard UI components instead of designing our own. As for color and font, I wanted to emulate a reputable scientific app. Since this app was an extension of NHF’s website it seemed logical to follow the same style. I didn’t want the app to seem unrelated, or have the user question if it’s the same organization.Our sponsor wanted as much of the study research incorporated into the app as possible. This led to the critical design element of the info icon."
+            "research": "With plenty of data and information given and no design constraint, it was a little intimidating at first to think about how to design the app. I knew that it would be easier to utilize Android/iOS standard UI components instead of designing our own.<br><br>As for color and font, I wanted to emulate a reputable scientific app. Since this app was an extension of NHF’s website it seemed logical to follow the same style. I didn’t want the app to seem unrelated, or have the user question if it’s the same organization.<br><br>Our sponsor wanted as much of the study research incorporated into the app as possible. This led to me having the idea to incorporate a common design element, the info icon. This allowed for the user to get more information without cluttering up the page."
         },
         {
             "title": "IBM<br>Social Media Measuring",
-            "description": "where is this",
-            "project": "here",
-            "team": "Project Sponsor<br>Design Thinking Coach<br>6 Team Members",
+            "description": "Gaming and the e-sports industry is a ",
+            "project": "Create a application prototype to solve a problem in the e-sports industry",
+            "team": "6 Team Members<br>Project Sponsor<br>Design Thinking Coach",
             "duration": "6 Months<br>Aug 2021 - Jan 2022",
             "tools": "React<br>Carbon Components<br>Flask<br>Github<br>Visual Studio Code<br>PowerPoint<br>Mural",
             "contributions": "Initial UX/UI<br>High Fidelity Wireframe<br>Set up of Github Repo<br>Created intial Front End",
@@ -71,15 +63,15 @@ function loadText(index) {
         },
         {
             "title": "Portfolio Website",
-            "description": "where is this",
-            "project": "Portfolio/resume website",
-            "team": "Me<br>Myself<br>I",
-            "duration": "2 Months<br>(working on it mainly on weekends)",
-            "tools": "Figma<br>Procreate<br>Html,CSS,JavaScript<br>Visual Studio Code<br>Github",
-            "contributions": "Set up Github Pages repository",
-            "constraints": "Needs to be a static website, otherwise won't work with Pages",
-            "goals": "  1. Utilize Figma to create Wireframes<br>2. Create graphics using Procreate<br>3. Host website using Github Pages",
-            "research": "After researching example portfolio websites, I found they can be either really simple or really creative. From like white wall art museum websites to full on interactive videogame."
+            "description": "Having a portfolio website is essential nowadays to showcase one's skills and talents.",
+            "project": "Create a website to showcase projects and resume",
+            "team": "Me<br>Myself<br>& I",
+            "duration": "2 Months<br><br>(working on it mainly on weekends)",
+            "tools": "Figma<br>Procreate<br>HTML CSS JavaScript<br>Visual Studio Code<br>Github",
+            "contributions": "Everything<br>",
+            "constraints": "Needs to be a static website, otherwise won't work with Github Pages",
+            "goals": "1. Utilize Figma to create Wireframes<br><br>2. Create graphic assets using Procreate<br><br>3. Assemble Stylguides and graphics<br><br>4. Deploy website to personal Github repo",
+            "research": "After researching example portfolio websites, I found the content and style can vary greatly. To narrow in what I wanted my website to look like, I created a moodbord with example portfolios and any graphic elements I was drawn to while  researching."
         },
     ]
    
@@ -152,13 +144,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   
 }
-
-
-
-
-
-
-
-
 
 
