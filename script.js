@@ -39,7 +39,7 @@ function loadText(index) {
     var projects = [
         {
             "title": "Neurological Health Foundation<br>Prenatal Rater",
-            "description": "The supplement industry is not regulated by the FDA, so their is no standard or quality regulation. The Neurological Health Foundation a not for profit organization conducted a study see how prenatal brands currently on the market compare to their recommended amounts.",
+            "description": "The supplement industry is not regulated by the FDA, so their is no standard or quality regulation.<br><br>The Neurological Health Foundation a not for profit organization conducted a study see how prenatal brands currently on the market compare to their recommended amounts.",
             "project": "Create a iOS and Android mobile app to summarize and report NHF's research findings",
             "team": "4 Classmates<br>Project Sponsor<br>Data Scientist",
             "duration": "6 months<br>Aug 2020 - Dec 2020<br><br>Updates<br>Jan 2022 - ",
@@ -51,7 +51,7 @@ function loadText(index) {
         },
         {
             "title": "IBM<br>Social Media Measuring",
-            "description": "Gaming and the e-sports industry is a ",
+            "description": "Gaming and e-sports are a booming industry.<br><br> I was part of Jumpstart Program, a program for recently hired IBM employees that utilized IBM's Design Thinking Strtegies to find,design, and create a solution for a given problem.",
             "project": "Create a application prototype to solve a problem in the e-sports industry",
             "team": "6 Team Members<br>Project Sponsor<br>Design Thinking Coach",
             "duration": "6 Months<br>Aug 2021 - Jan 2022",
@@ -68,9 +68,9 @@ function loadText(index) {
             "team": "Me<br>Myself<br>& I",
             "duration": "2 Months<br><br>(working on it mainly on weekends)",
             "tools": "Figma<br>Procreate<br>HTML CSS JavaScript<br>Visual Studio Code<br>Github",
-            "contributions": "Everything<br>",
+            "contributions": "Design<br>Code",
             "constraints": "Needs to be a static website, otherwise won't work with Github Pages",
-            "goals": "1. Utilize Figma to create Wireframes<br><br>2. Create graphic assets using Procreate<br><br>3. Assemble Stylguides and graphics<br><br>4. Deploy website to personal Github repo",
+            "goals": "1. Utilize Figma to create Wireframes<br><br>2. Create graphic assets using Procreate<br><br>3. Assemble Styleguides and graphics<br><br>4. Deploy website to Github Pages repo",
             "research": "After researching example portfolio websites, I found the content and style can vary greatly. To narrow in what I wanted my website to look like, I created a moodbord with example portfolios and any graphic elements I was drawn to while  researching."
         },
     ]
@@ -118,7 +118,7 @@ function loadText(index) {
 
 
 
-  var slideIndex = 1;
+var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -130,6 +130,7 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+
 
 function showSlides(n) {
   var i;
@@ -144,5 +145,15 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   
 }
+
+
+
+
+
+
+
+
+
+
 
 
