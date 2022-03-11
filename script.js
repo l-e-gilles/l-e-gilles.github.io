@@ -18,7 +18,18 @@ function MovingNavBar() {
         navbar.classList.remove("sticky");
     }
 }
+
+
+  
+
 }
+
+
+
+
+
+
+
 
 
 /* Text contents to load  */
@@ -39,7 +50,7 @@ function loadText(index) {
         },
         {
             "title": "Social Media Measuring",
-            "description": "Gaming and e-sports are a booming industry, and how does a organization continue to be releveant and sustainable?<br><br> I was part of Jumpstart Program, a program for recently hired IBM employees that utilized IBM's Design Thinking Strategies to find, design, and create a solution for a given problem.",
+            "description": "Gaming and e-sports are a booming industry, and how does a organization continue to be releveant and sustainable?<br><br> I was part of Jumpstart Program, a program for recently hired IBM employees that utilized IBM's Design Thinking Strategies to find, design, and create a potential solution for a given problem.",
             "project": "Create a social media analytics application",
             "team": "5 Team Members<br>Project Sponsor<br>Design Thinking Coach",
             "duration": "6 Months<br>Aug 2021 - Jan 2022",
@@ -47,7 +58,7 @@ function loadText(index) {
             "contributions": "Initial UX/UI<br>High Fidelity Wireframe<br>Set up of Github Repo<br>Created intial Front End",
             "constraints": "Time<br>Knowledge of the industry",
             "goals": "1. Provide base media anyaltics for multiple social media platforms<br><br>2. Insights into social media data<br><br>3. Predictions based on insights<br>",
-            "research": "Knowing that the solution would be utilizing Carbon design components, and needs to look like an IBM product, it helped narrowed down the UI design. A dark theme was chosen because many gamers prefer dark theme. I picked a blue accent color as a nod to the League of Legends logo which was related to our original project goal, before our project pivoted focus."
+            "research": "Knowing that if this was an actual IBM product, the solution would be utilizing Carbon design components and follow IBM's design language, it helped narrowed down the UI design. A dark theme was chosen because many gamers prefer dark theme. I picked a blue accent color as a nod to the League of Legends logo which was related to our original project goal, before our project pivoted focus."
         },
         {
             "title": "Portfolio Website",
@@ -77,6 +88,10 @@ function loadText(index) {
 
   }
 
+
+
+
+
   /*Fade in during scrolling */
   function FadeOnScroll() {
       $(document).ready(function() {
@@ -99,6 +114,9 @@ function loadText(index) {
       });
   }
   
+
+
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -126,3 +144,4 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   
 }
+
