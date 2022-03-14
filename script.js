@@ -55,7 +55,7 @@ function loadText(index) {
             "team": "5 Team Members<br>Project Sponsor<br>Design Thinking Coach",
             "duration": "6 Months<br>Aug 2021 - Jan 2022",
             "tools": "React<br>Carbon Design System<br>IBM Design Language<br>Flask<br>Github<br>Visual Studio Code<br>PowerPoint<br>Mural",
-            "contributions": "Initial UX/UI<br>Set up Github Repository<br>Created intial Front End",
+            "contributions": "Initial UX/UI<br>Set up Github repository<br>Created intial Front End",
             "constraints": "Time<br>Knowledge of the industry",
             "goals": "1. Provide base media anyaltics for multiple social media platforms<br><br>2. Insights into social media data<br><br>3. Predictions based on insights<br>",
             "research": "Knowing that if this was an actual IBM product, the solution would be utilizing Carbon design components and follow IBM's design language, it helped narrowed down the UI design. A dark theme was chosen because many gamers prefer dark theme. I picked a blue accent color as a nod to the League of Legends logo which was related to our original project goal, before our project pivoted focus."
