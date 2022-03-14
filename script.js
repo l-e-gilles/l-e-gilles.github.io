@@ -50,12 +50,12 @@ function loadText(index) {
         },
         {
             "title": "Social Media Measuring",
-            "description": "Gaming and e-sports are a booming industry, and how does a organization continue to be releveant and sustainable?<br><br> I was part of Jumpstart Program, a program for recently hired IBM employees that utilized IBM's Design Thinking Strategies to find, design, and create a potential solution for a given problem.",
+            "description": "Gaming and e-sports are a booming industry, but how does a organization continue to be releveant and sustainable?<br><br> I was part of Jumpstart Program, a program for recently hired IBM employees that utilized IBM's Design Thinking Strategies to find, design, and create a potential solution for a given problem.",
             "project": "Create a social media analytics application",
             "team": "5 Team Members<br>Project Sponsor<br>Design Thinking Coach",
             "duration": "6 Months<br>Aug 2021 - Jan 2022",
-            "tools": "React<br>Carbon Components<br>Flask<br>Github<br>Visual Studio Code<br>PowerPoint<br>Mural",
-            "contributions": "Initial UX/UI<br>High Fidelity Wireframe<br>Set up of Github Repo<br>Created intial Front End",
+            "tools": "React<br>Carbon Design System<br>IBM Design Language<br>Flask<br>Github<br>Visual Studio Code<br>PowerPoint<br>Mural",
+            "contributions": "Initial UX/UI<br>Set up Github Repository<br>Created intial Front End",
             "constraints": "Time<br>Knowledge of the industry",
             "goals": "1. Provide base media anyaltics for multiple social media platforms<br><br>2. Insights into social media data<br><br>3. Predictions based on insights<br>",
             "research": "Knowing that if this was an actual IBM product, the solution would be utilizing Carbon design components and follow IBM's design language, it helped narrowed down the UI design. A dark theme was chosen because many gamers prefer dark theme. I picked a blue accent color as a nod to the League of Legends logo which was related to our original project goal, before our project pivoted focus."
@@ -69,7 +69,7 @@ function loadText(index) {
             "tools": "Figma<br>Procreate<br>HTML CSS JavaScript<br>Visual Studio Code<br>Github",
             "contributions": "Design<br>Code",
             "constraints": "Needs to be a static website, otherwise won't work with Github Pages",
-            "goals": "1. Utilize Figma to create Wireframes<br><br>2. Create graphic assets using Procreate<br><br>3. Assemble styleguides and graphics<br><br>4. Deploy website to Github Pages repo",
+            "goals": "1. Utilize Figma to create Wireframes<br><br>2. Create graphic assets using Procreate<br><br>3. Assemble styleguides and graphics<br><br>4. Deploy website to Github Pages repository",
             "research": "After researching example portfolio websites, I found the content and style can vary greatly. To narrow in what I wanted my website to look like, I created a moodbord with example portfolios and any graphic elements I was drawn to while researching."
         },
     ]
